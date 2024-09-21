@@ -41,7 +41,7 @@ volume master {
 }
 
 battery all {
-        format = "%status %percentage %remaining %emptytime"
+        format = "%status %percentage %remaining"
         format_down = "No battery"
         status_chr = "⚡ CHR"
         status_bat = "🔋 BAT"
@@ -52,7 +52,7 @@ battery all {
 }
 
 tztime local {
-        format = "%Y-%m-%d %I:%M:%S %P"
+        format = "%Y-%m-%d %I:%M:%S %p"
 }
 
 
