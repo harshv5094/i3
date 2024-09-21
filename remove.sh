@@ -15,8 +15,6 @@ cmdCheck() {
 }
 
 checkFolderStatus() {
-  CONFIG_DIR="$HOME/.config"
-  BASE_DIR="$HOME/i3/.config/"
   dir_paths=("i3" "i3status" "rofi" "dunst" "nitrogen")
   printf "%b\n" "${CYAN}Checking folder status${RESET}"
   for folder in "${dir_paths[@]}"; do
@@ -26,7 +24,7 @@ checkFolderStatus() {
       rm -rf "$HOME/.config/$folder"
       cmdCheck
     else
-      printf "%b\n" "${RED} **$HOME/.config/$folder does not exist** ${RESET}"
+      printf "%b\n" "${RED} ***$HOME/.config/$folder does not exist*** ${RESET}"
     fi
   done
 }
