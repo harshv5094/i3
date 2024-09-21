@@ -1,0 +1,12 @@
+i3
+lxappearance
+dunst
+rofi
+picom
+dunst
+playerctl
+thunar
+copyq
+polkit-gnome
+blueman
+network-manager-applet

@@ -1,0 +1,8 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ font: "JetBrainsMono Nerd Fonts 13";
+ combi-modi: "window,drun,ssh";
+ }
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
