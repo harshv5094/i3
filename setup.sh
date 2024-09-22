@@ -17,7 +17,7 @@ cmdCheck() {
 checkFolderStatus() {
   CONFIG_DIR="$HOME/.config"
   BASE_DIR="$HOME/i3/.config/"
-  dir_paths=("i3" "i3status" "rofi" "dunst" "nitrogen")
+  dir_paths=("i3" "i3status" "rofi" "dunst" "nitrogen" "picom")
   printf "%b\n" "${CYAN}Checking folder status${RESET}"
   for folder in "${dir_paths[@]}"; do
     if [ -e "$HOME/.config/$folder" ]; then
