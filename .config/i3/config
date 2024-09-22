@@ -75,9 +75,6 @@ bindsym $mod+F10 exec playerctl previous
 # Enable touchpad tap to click
 exec xinput set-prop "ELAN1200:00 04F3:3090 Touchpad" "libinput Tapping Enabled" 1
 
-# Adding browser keybinding
-bindsym $mod+b exec --no-startup-id firefox
-
 # Setting up lock screen
 bindsym $mod+x exec --no-startup-id i3lock --image ~/Pictures/wall/nice-blue-background.png
 
