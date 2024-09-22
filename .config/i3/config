@@ -225,7 +225,7 @@ bar {
 
 
 # Setting up window border
-for_window [class="^.*"] border pixel 4          # class border  bk.text indicator child_border
+for_window [class="^.*"] border pixel 2          # class border  bk.text indicator child_border
 for_window [class="^.*"] client.focused          #77dd77 #285577 #ffffff #2e9ef4   #285577
 # Setting up floating 
 for_window [class="copyq"] floating enable
