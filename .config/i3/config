@@ -4,7 +4,6 @@
 
 # Setting variables
 set $mod Mod1
-set $terminal kitty
 set $fileManager thunar
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -87,7 +86,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec $terminal
+bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
