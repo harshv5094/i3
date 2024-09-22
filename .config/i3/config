@@ -68,6 +68,11 @@ bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Setting up media buttons
+bindsym $mod+F11 exec playerctl play-pause
+bindsym $mod+F12 exec playerctl next
+bindsym $mod+F10 exec playerctl previous
+
 # Enable touchpad tap to click
 exec xinput set-prop "ELAN1200:00 04F3:3090 Touchpad" "libinput Tapping Enabled" 1
 
