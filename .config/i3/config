@@ -68,6 +68,9 @@ bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Enable touchpad tap to click
+exec xinput set-prop "ELAN1200:00 04F3:3090 Touchpad" "libinput Tapping Enabled" 1
+
 # Setting up lock screen
 bindsym $mod+x exec --no-startup-id i3lock --image ~/Pictures/wall/nice-blue-background.png
 

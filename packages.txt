@@ -10,3 +10,4 @@ copyq
 polkit-gnome
 blueman
 network-manager-applet
+xinput
