@@ -34,6 +34,11 @@ checkFolderStatus() {
       cmdCheck
     fi
   done
+  printf "%b\n" "${CYAN} Copying touchpad config file ${RESET}"
+  if [ -e /etc/X11/xorg.conf.d/ ]; then
+    sudo cp -r ~/i3/90-touchpad.conf /etc/X11/xorg.conf.d/
+    cmdCheck
+  fi
 }
 
 packageInstall() {
